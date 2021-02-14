@@ -1,7 +1,7 @@
 
 Name:     liblexbor
 Version:  2.0.0
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Lexbor is development of an open source HTML Renderer library.
 License:  Apache 2.0
@@ -68,7 +68,7 @@ rm -rf %{buildroot}
 # Modules
 %package core
 Version:  1.3.5
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "core" library from the Lexbor project.
 License:  Apache 2.0
@@ -88,7 +88,7 @@ AVL Tree, Array, String, Memory Pool and so on.
 
 %package core-devel
 Version:  1.3.5
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "core" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -108,7 +108,7 @@ AVL Tree, Array, String, Memory Pool and so on.
 
 %package css
 Version:  0.2.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "css" library from the Lexbor project.
 License:  Apache 2.0
@@ -127,7 +127,7 @@ The module implemented by CSS specification.
 
 %package css-devel
 Version:  0.2.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "css" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -146,7 +146,7 @@ The module implemented by CSS specification.
 
 %package dom
 Version:  1.2.5
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "dom" library from the Lexbor project.
 License:  Apache 2.0
@@ -168,7 +168,7 @@ Includes functions for manipulating DOM tree: nodes, attributes, events.
 
 %package dom-devel
 Version:  1.2.5
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "dom" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -190,7 +190,7 @@ Includes functions for manipulating DOM tree: nodes, attributes, events.
 
 %package encoding
 Version:  2.0.4
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "encoding" library from the Lexbor project.
 License:  Apache 2.0
@@ -219,7 +219,7 @@ x-mac-cyrillic, x-user-defined.
 
 %package encoding-devel
 Version:  2.0.4
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "encoding" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -248,7 +248,7 @@ x-mac-cyrillic, x-user-defined.
 
 %package html
 Version:  2.0.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "html" library from the Lexbor project.
 License:  Apache 2.0
@@ -271,7 +271,7 @@ Includes functions for parsing HTML, build DOM tree and DOM/HTML serialization.
 
 %package html-devel
 Version:  2.0.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "html" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -294,7 +294,7 @@ Includes functions for parsing HTML, build DOM tree and DOM/HTML serialization.
 
 %package ns
 Version:  1.2.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "ns" library from the Lexbor project.
 License:  Apache 2.0
@@ -313,7 +313,7 @@ DOM/HTML namespace module. It is helper module for parsing HTML.
 
 %package ns-devel
 Version:  1.2.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "ns" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -332,7 +332,7 @@ DOM/HTML namespace module. It is helper module for parsing HTML.
 
 %package tag
 Version:  1.2.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "tag" library from the Lexbor project.
 License:  Apache 2.0
@@ -351,7 +351,7 @@ DOM/HTML tags module. It is helper module for parsing HTML.
 
 %package tag-devel
 Version:  1.2.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "tag" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -370,7 +370,7 @@ DOM/HTML tags module. It is helper module for parsing HTML.
 
 %package utils
 Version:  0.3.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Shared "utils" library from the Lexbor project.
 License:  Apache 2.0
@@ -389,7 +389,7 @@ The module contains helpers functions, such as: WARC and HTTP parsing.
 
 %package utils-devel
 Version:  0.3.3
-Release:  1%{?dist}
+Release:  3%{?dist}
 Epoch:    1
 Summary:  Static "utils" library and headers from the Lexbor project.
 License:  Apache 2.0
@@ -408,6 +408,12 @@ The module contains helpers functions, such as: WARC and HTTP parsing.
 # End of modules
 
 %changelog
+* Sat Feb 13 2021 Jade Angrboða <jade@trashwitch.dev> 2.0.0-3
+- new package built with tito
+
+* Sat Feb 13 2021 Jade Angrboða <jade@trashwitch.dev>
+- new package built with tito
+
 * Sat Feb 13 2021 Jade Angrboða <jade@trashwitch.dev> 2.0.0-1
 - hack up rpm spec for copr (jade@trashwitch.dev)
 
